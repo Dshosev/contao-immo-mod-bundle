@@ -8,14 +8,14 @@
  * @license LGPL-3.0-or-later
  */
 
-namespace Nextbrand\ContaoImmoModExtension\DependencyInjection;
+namespace Nextbrand\ContaoImmoModBundle\DependencyInjection;
 
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Extension\Extension;
 use Symfony\Component\DependencyInjection\Loader\YamlFileLoader;
 
-class ContaoImmoModBundleExtension extends Extension
+class ContaoImmoModExtension extends Extension
 {
     /**
      * {@inheritdoc}
