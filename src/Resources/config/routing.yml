@@ -1,0 +1,6 @@
+immomod:
+    path: /immomod
+    defaults:
+        _controller: Nextbrand\Controller\FrontendController:demoAction
+        _scope: frontend
+        _token_check: false
